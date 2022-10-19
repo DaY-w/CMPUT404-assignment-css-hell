@@ -1,0 +1,106 @@
+body {
+  background-color: #dfccae;
+  font-family: serif;
+  width: 50%;
+  margin: auto;
+}
+
+#header-title {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 600;
+  margin: 1ex 0 1.5ex 0;
+}
+
+#header-message {
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+}
+
+.header-info {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#header-info-first {
+  margin-top: 4ex;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#header-end {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 5ex 0;
+}
+
+#img-container {
+  width: fit-content;
+  margin: auto;
+}
+
+img {
+  height: 700px;
+}
+
+table {
+  margin: auto;
+  width: 100%;
+}
+
+table::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  margin: 50px 0;
+  background-color: black;
+}
+
+tr {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+hr {
+  background-color: black;
+  height: 3px;
+  outline: none;
+  border: none;
+}
+
+pre {
+  text-align: center;
+}
+
+a {
+  color: rgb(96, 120, 255);
+}
+
+a:hover {
+  color: rgb(32, 66, 255);
+}

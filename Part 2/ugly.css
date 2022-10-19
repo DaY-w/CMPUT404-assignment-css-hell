@@ -36,7 +36,10 @@ body {
 #hero-img {
   height: 100%;
   padding-top: 20px;
-  content: url("./images/nice.png");
+}
+
+#hero-img-ugly {
+  height: 100%;
 }
 
 #hero-banner {
@@ -118,4 +121,15 @@ body {
   font-size: 15px;
   margin-top: 10px;
   color: rgb(0, 217, 255);
+}
+
+.ugly-img-container {
+  height: 125px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ugly-img-container > img {
+  height: 100%;
 }
