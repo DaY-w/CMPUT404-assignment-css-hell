@@ -35,24 +35,34 @@ body {
 
 #hero-img {
   height: 100%;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  height: 150px;
+  width: 150px;
+  border: 10px solid rgb(212, 0, 255);
 }
 
 #hero-img-ugly {
   height: 100%;
 }
 
-#hero-banner {
+#nav-banner {
   background-color: rgb(212, 0, 255);
   height: 40px;
   color: rgb(255, 0, 255);
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 100px;
   font-weight: 600;
   color: var(--orange);
-  content: url("./images/cat.png");
+  background-image: url("./images/cat.png");
+  background-size: contain;
   /* width: 100px; */
+}
+
+.nav-item {
+  color: yellow;
+  font-weight: 500;
 }
 
 #info-container {
@@ -131,5 +141,5 @@ body {
 }
 
 .ugly-img-container > img {
-  height: 100%;
+  height: 100px;
 }
