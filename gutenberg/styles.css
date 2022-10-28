@@ -45,6 +45,11 @@ img {
   height: 700px;
 }
 
+#img-caption {
+  text-align: center;
+  font-style: italic;
+}
+
 table {
   margin: auto;
   width: 100%;
